@@ -1,16 +1,32 @@
-# clean_code_getx_bloc_mvvm
+# Flutter Clean Architecture with GetX and BLoC
 
-A new Flutter project.
+A production-ready Flutter project demonstrating Clean Architecture,
+MVVM, GetX, BLoC state management, API integration, dependency
+management, and reusable Flutter widgets.
 
-## Getting Started
+## 🚀 Technologies
 
-This project is a starting point for a Flutter application.
+- Flutter
+- Dart
+- GetX
+- BLoC / Cubit
+- Clean Architecture
+- MVVM
+- REST API
+- JSON
+- Reusable Widgets
+- Dependency Injection
 
-A few resources to get you started if this is your first Flutter project:
+## 📁 Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project follows a clean and scalable architecture:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```text
+lib/
+├── core/
+├── data/
+├── domain/
+├── presentation/
+├── routes/
+├── services/
+└── main.dart
